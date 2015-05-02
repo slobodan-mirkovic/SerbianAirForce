@@ -11,6 +11,7 @@ body {
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
+  padding: 0 5%;
 }
 
 img {
@@ -121,5 +122,21 @@ PAGE: INVENTORY
 #inventory li a p {
   margin: 0;
   padding: 0;
+  color: #0B0B61
+}
+
+/**********************************
+PAGE: INDEX
+***********************************/
+
+.index-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+}
+h3 {
+  color: #0B0B61
+}
+.saf-about {
   color: #0B0B61
 }
