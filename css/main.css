@@ -149,3 +149,26 @@ h3 {
 .saf-about {
   color: #0B0B61
 }
+
+/*******************************
+OVERLAY
+*******************************/
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+ margin-top: 5%; 
+}
+
+#overlay p {
+ color:white; 
+}
