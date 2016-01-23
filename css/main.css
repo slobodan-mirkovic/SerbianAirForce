@@ -111,13 +111,14 @@ PAGE: INVENTORY
 ***********************************/
 
 #inventory {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 #inventory li {
-  float: left;
   width: 45%;
   margin: 2.5%;
   background-color: #D8D8D8;
