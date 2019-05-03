@@ -5,13 +5,10 @@
   PAGE: INVENTORY
   ***********************************/
 
-  #inventory li {
-    width: 28.3333%;
+  #inventory {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  #inventory li:nth-child(4n) {
-    clear: left;
-  }
 
 
   /**********************************
